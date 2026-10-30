@@ -285,5 +285,5 @@ else:
     st.download_button("Download filtered CSV", df.to_csv(index=False).encode(),
                        "traffic_filtered.csv", "text/csv")
 
-!pip install streamlit plotly folium streamlit-folium pandas numpy
+
 
